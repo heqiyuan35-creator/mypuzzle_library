@@ -1,0 +1,16 @@
+{
+  "name": "puzzle-game",
+  "version": "1.0.0",
+  "description": "HarmonyOS ArkUI 拼图游戏组件库，支持自定义图片、网格大小、主题配置",
+  "main": "Index.ets",
+  "author": "nianan02",
+  "license": "Apache-2.0",
+  "keywords": [
+    "harmonyos",
+    "arkui",
+    "puzzle",
+    "game",
+    "component"
+  ],
+  "dependencies": {}
+}
