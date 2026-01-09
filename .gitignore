@@ -1,6 +1,13 @@
 /node_modules
 /oh_modules
 /.preview
-/build
+/build/*
+!/build/default/
+/build/default/*
+!/build/default/outputs/
+/build/default/outputs/*
+!/build/default/outputs/default/
+/build/default/outputs/default/*
+!/build/default/outputs/default/*.har
 /.cxx
 /.test
