@@ -1,0 +1,60 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:/Users/Lenovo/Desktop/拼图组件/拼图组件.cer",
+          "keyAlias": "nianan",
+          "keyPassword": "00000019FA4E6F51102EEF6AE7BE60DFB9DD762A015E9814AFB9817DB526FEAC3D5A6570E328B63DC2",
+          "profile": "C:/Users/Lenovo/Desktop/拼图组件/拼图组件Release.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:/Users/Lenovo/Desktop/拼图组件/拼图组件.p12",
+          "storePassword": "00000019ED2D358FC1BA2F8821CEFA6DB95CD9111D64A12E1387F0FFBE74D6732CBB80D6C62F8C180B"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "targetSdkVersion": "6.0.0(20)",
+        "compatibleSdkVersion": "6.0.0(20)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "library",
+      "srcPath": "./library",
+    }
+  ]
+}

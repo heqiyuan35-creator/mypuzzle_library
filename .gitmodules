@@ -1,0 +1,3 @@
+[submodule "library"]
+	path = library
+	url = https://github.com/heqiyuan35-creator/mypuzzle_library.git
